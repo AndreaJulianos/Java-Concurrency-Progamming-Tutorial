@@ -8,6 +8,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
+/**
+ * @author JavaEdge
+ * @date 2019/10/17
+ */
 @Slf4j
 @ThreadSafe
 public class LockExample1 {
