@@ -1,4 +1,7 @@
-package com.study.lock.cas.demo;
+package com.javaedge.concurrency.cas.demo;
+
+import com.javaedge.concurrency.cas.demo.Node;
+import com.javaedge.concurrency.cas.demo.Stack;
 
 public class Test {
     public static void main(String[] args) throws InterruptedException {

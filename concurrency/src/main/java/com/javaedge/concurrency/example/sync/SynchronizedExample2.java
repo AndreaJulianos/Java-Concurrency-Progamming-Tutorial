@@ -5,6 +5,12 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+
+/**
+ *
+ * @author JavaEdge
+ * @date 2019/10/20
+ */
 @Slf4j
 public class SynchronizedExample2 {
 
@@ -28,11 +34,7 @@ public class SynchronizedExample2 {
         SynchronizedExample2 example1 = new SynchronizedExample2();
         SynchronizedExample2 example2 = new SynchronizedExample2();
         ExecutorService executorService = Executors.newCachedThreadPool();
-        executorService.execute(() -> {
-            example1.test1(1);
-        });
-        executorService.execute(() -> {
-            example2.test1(2);
-        });
+        executorService.execute(() -> example1.test1(1));
+        executorService.execute(() -> example2.test1(2));
     }
 }

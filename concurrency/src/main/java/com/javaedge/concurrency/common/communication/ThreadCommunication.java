@@ -2,7 +2,7 @@ package com.javaedge.concurrency.common.communication;
 
 import java.util.concurrent.locks.LockSupport;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 /**
  * 三种线程协作通信的方式：suspend/resume、wait/notify、park/unpark

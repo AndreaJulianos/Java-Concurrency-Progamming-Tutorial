@@ -1,4 +1,6 @@
-package com.study.lock.cas.demo;
+package com.javaedge.concurrency.cas.demo;
+
+import com.javaedge.concurrency.cas.demo.Node;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicStampedReference;
